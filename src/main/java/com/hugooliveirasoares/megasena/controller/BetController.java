@@ -25,10 +25,4 @@ public class BetController {
     public ResponseEntity<List<BetEntity>> getByEmail(@RequestParam String email){
         return ResponseEntity.ok(betService.getByEmail(email));
     }
-
-    @GetMapping(path = "/all")
-    public Iterable<BetEntity> getAllUsers() {
-        return betService.findAll();
-    }
-
 }
