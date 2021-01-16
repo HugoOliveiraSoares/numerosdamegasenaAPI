@@ -5,7 +5,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "user")
-public class ApostaEntity {
+public class BetEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
