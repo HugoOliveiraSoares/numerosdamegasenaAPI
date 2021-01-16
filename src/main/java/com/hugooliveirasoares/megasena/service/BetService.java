@@ -31,8 +31,4 @@ public class BetService {
         }
         return numbersDrawn;
     }
-
-    public Iterable<BetEntity> findAll() {
-        return betRepository.findAll();
-    }
 }
